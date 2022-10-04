@@ -1,10 +1,49 @@
-body{
+body {
     margin-top: 5%;
     text-align: center;
-    background-color: black;
+    background-color: grey;
 }
 
-.clock
-{
-    width: 40%;
+.image {
+    margin: auto;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    width: 40vw;
+    height: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+.hour, .min, .seconds {
+    position: absolute;
+    background-color: black;
+    
+}
+
+
+.hour{
+    height: 18%;
+    width: .8%;
+    border: 10px ;
+    left: 49.5%;
+    top: 28%;
+    /* display: none; */
+}
+.min{
+    height: 23%;
+    width: .5%;
+    border: 10px ;
+    left: 49.65%;
+    top: 23%;
+
+    /* display: none; */
+}
+.seconds{
+    height: 25%;
+    width: .2%;
+    border: 10px ;
+    left: 49.8%;
+    top: 20%;
+    /* display: none; */
+
 }
