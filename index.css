@@ -1,1 +1,11 @@
+body{
+    margin-top: 5%;
+    text-align: center;
+    background-color: black;
+}
 
+.clock
+{
+    width: 40%;
+    border-radius: 100%;
+}
