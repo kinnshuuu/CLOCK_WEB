@@ -4,5 +4,11 @@ setInterval(() => {
     mtime = d.getMinutes();
     stime = d.getSeconds();
 
-    
-}, 1000)
+    h = 30 * htime + mtime/2;
+    m = 6 * mtime;
+    s = 6 * stime;
+
+    hour.style.transform = `rotate(${h}deg)`;
+    min.style.transform = `rotate(${m}deg)`;
+    seconds.style.transform = `rotate(${s}deg)`;
+}, 100)

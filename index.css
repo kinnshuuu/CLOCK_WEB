@@ -5,6 +5,7 @@ body {
 }
 
 .image {
+    position:relative;
     margin: auto;
     /* border: 2px solid red; */
     /* background-color: black; */
@@ -14,36 +15,39 @@ body {
     background-size: 100%;
 }
 
-.hour, .min, .seconds {
+#hour, #min, #seconds {
     position: absolute;
     background-color: black;
-    
+    transform-origin: bottom;
 }
 
 
-.hour{
-    height: 18%;
-    width: .8%;
-    border: 10px ;
-    left: 49.5%;
-    top: 28%;
+#hour{
+    height: 25%;
+    width: 1.65%;
+    left: 49%;
+    top: 24.7%;
+    /* background-color: aqua; */
     /* display: none; */
 }
-.min{
-    height: 23%;
+#min{
+    height: 30%;
+    width: 1%;
+    border: 10px ;
+    left: 49.3%;
+    top: 19.6%;
+    /* background-color: aqua; */
+
+    /* display: none; */
+}
+#seconds{
+    height: 35%;
     width: .5%;
     border: 10px ;
-    left: 49.65%;
-    top: 23%;
+    left: 49.57%;
+    top: 14.6%;
+    /* background-color: aqua; */
 
-    /* display: none; */
-}
-.seconds{
-    height: 25%;
-    width: .2%;
-    border: 10px ;
-    left: 49.8%;
-    top: 20%;
     /* display: none; */
 
 }
