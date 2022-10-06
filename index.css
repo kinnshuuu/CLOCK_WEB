@@ -47,7 +47,22 @@ body {
     border: 10px ;
     left: 49.57%;
     top: 14.6%;
-    /* background-color: aqua; */
+    /* background-color: grey; */
 
     /* display: none; */
+}
+
+#digital{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    /* transform: translateX(-50%) translateY(-50%); */
+    /* background: black; */
+    color: #403d3d;
+    margin-bottom: 5%;
 }
